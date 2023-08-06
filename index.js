@@ -17,7 +17,7 @@ function filterStudentsByGrade(students, grade) {
     (student) => student.grade === grade
   );
   for (const student of filteredStudents) {
-    console.log(student.name);
+    console.log(student);
   }
   //Виведеме в консоль критичну помилку з текстом якщо ви бачите це повідомлення завдання 1 виконано не правильно
   // Очищення консолі перед виведенням
